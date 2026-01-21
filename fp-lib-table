@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "DEV-15795")(type "KiCad")(uri "${KIPRJMOD}/DEV-15795")(options "")(descr ""))
   (lib (name "Silkscreen Logo")(type "KiCad")(uri "${KIPRJMOD}/Silkscreen Logo")(options "")(descr ""))
+  (lib (name "UF4004")(type "KiCad")(uri "${KIPRJMOD}/UF4004")(options "")(descr ""))
 )
