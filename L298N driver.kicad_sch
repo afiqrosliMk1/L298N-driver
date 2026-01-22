@@ -2262,6 +2262,173 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:UF5401"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "UF5401"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.vishay.com/docs/88756/uf5400.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "100V 3A Soft Recovery Ultrafast Rectifier Diode, DO-201AD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?201AD*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "UF5401_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "UF5401_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Driver_Motor:L298N"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2841,315 +3008,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "UF4004:UF4004"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at -5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "UF4004"
-				(at -5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "UF4004:DIOAD1055W87L533D272"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MF" "ON Semiconductor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MAXIMUM_PACKAGE_HEIGHT" "2.72 mm"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Package" "DO-41-2 ON Semiconductor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/UF4004/Onsemi/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "STANDARD" "IPC-7351B"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "PARTREV" "N/A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/UF4004/Onsemi/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "UF4004"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Description_1" "Diode Standard 400V 1A Through Hole DO-204AL (DO-41)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER" "NTE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "UF4004_0_0"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 2.54 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "A"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "C"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -3652,6 +3510,12 @@
 		(uuid "36398f0b-ead6-4a0a-809e-e6c31bb2f83f")
 	)
 	(junction
+		(at 279.4 215.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3a7ea39b-b806-418e-98c8-692a70ea5153")
+	)
+	(junction
 		(at 66.04 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3712,12 +3576,6 @@
 		(uuid "858f3803-570f-4411-9acb-b4b2782fa708")
 	)
 	(junction
-		(at 279.4 215.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "86bec1b2-48bd-4243-aa89-51c3bc016be9")
-	)
-	(junction
 		(at 284.48 215.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3728,6 +3586,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e116177-4a62-4138-b119-3c6903b5889c")
+	)
+	(junction
+		(at 330.2 119.38)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "995b8acd-ba3c-4fcf-962d-e66fb8b21b74")
 	)
 	(junction
 		(at 279.4 119.38)
@@ -3746,12 +3610,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "accd4677-dffd-42ba-b1d8-b58371910e51")
-	)
-	(junction
-		(at 330.2 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c67bcb63-28bd-4845-ad7d-48c7b88f2f3c")
 	)
 	(junction
 		(at 285.75 156.21)
@@ -3921,6 +3779,16 @@
 	)
 	(wire
 		(pts
+			(xy 330.2 113.03) (xy 330.2 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0694857c-c84d-4927-8e26-a11c3c70368d")
+	)
+	(wire
+		(pts
 			(xy 66.04 119.38) (xy 66.04 123.19)
 		)
 		(stroke
@@ -3931,7 +3799,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 176.53) (xy 279.4 189.23)
+			(xy 279.4 175.26) (xy 279.4 189.23)
 		)
 		(stroke
 			(width 0)
@@ -3991,16 +3859,6 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 82.55) (xy 316.23 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "114839fa-296c-4bd7-84bb-42fd1d5271fc")
-	)
-	(wire
-		(pts
 			(xy 299.72 101.6) (xy 355.6 101.6)
 		)
 		(stroke
@@ -4011,7 +3869,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 212.09) (xy 265.43 215.9)
+			(xy 265.43 210.82) (xy 265.43 215.9)
 		)
 		(stroke
 			(width 0)
@@ -4061,7 +3919,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 176.53) (xy 265.43 186.69)
+			(xy 265.43 175.26) (xy 265.43 186.69)
 		)
 		(stroke
 			(width 0)
@@ -4098,6 +3956,16 @@
 			(type default)
 		)
 		(uuid "29a12dc5-8e19-426f-8edc-47d966df8164")
+	)
+	(wire
+		(pts
+			(xy 292.1 156.21) (xy 292.1 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2da5cfbd-0e7c-4a4d-8dce-08815b3e05c5")
 	)
 	(wire
 		(pts
@@ -4211,16 +4079,6 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 189.23) (xy 279.4 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c63236e-c275-4f8d-8693-4e17217e91f1")
-	)
-	(wire
-		(pts
 			(xy 49.53 143.51) (xy 55.88 143.51)
 		)
 		(stroke
@@ -4228,6 +4086,16 @@
 			(type default)
 		)
 		(uuid "40c1930b-e00d-431f-9115-5f90b4377442")
+	)
+	(wire
+		(pts
+			(xy 342.9 113.03) (xy 342.9 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43677c52-732b-4029-91d4-c09cccda3204")
 	)
 	(wire
 		(pts
@@ -4381,6 +4249,16 @@
 	)
 	(wire
 		(pts
+			(xy 355.6 101.6) (xy 355.6 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "533b23d5-2a4f-497a-9a2a-049756546622")
+	)
+	(wire
+		(pts
 			(xy 336.55 119.38) (xy 342.9 119.38)
 		)
 		(stroke
@@ -4411,6 +4289,16 @@
 	)
 	(wire
 		(pts
+			(xy 304.8 196.85) (xy 304.8 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57b97887-1627-4b97-a575-1cef0e10598e")
+	)
+	(wire
+		(pts
 			(xy 234.95 156.21) (xy 265.43 156.21)
 		)
 		(stroke
@@ -4431,7 +4319,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 212.09) (xy 292.1 215.9)
+			(xy 292.1 210.82) (xy 292.1 215.9)
 		)
 		(stroke
 			(width 0)
@@ -4441,7 +4329,7 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 114.3) (xy 316.23 119.38)
+			(xy 316.23 113.03) (xy 316.23 119.38)
 		)
 		(stroke
 			(width 0)
@@ -4481,26 +4369,6 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 196.85) (xy 304.8 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61c343c7-e103-4681-8a1c-a1b8ff42d3a1")
-	)
-	(wire
-		(pts
-			(xy 292.1 156.21) (xy 292.1 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "623f67f8-1234-4676-8b60-d02d03315dd3")
-	)
-	(wire
-		(pts
 			(xy 247.65 196.85) (xy 304.8 196.85)
 		)
 		(stroke
@@ -4528,16 +4396,6 @@
 			(type default)
 		)
 		(uuid "62b4c7b3-3368-4ab3-817e-fe2b3a1df848")
-	)
-	(wire
-		(pts
-			(xy 355.6 114.3) (xy 355.6 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6382e04d-ced6-4958-8b99-fd135d92dcb4")
 	)
 	(wire
 		(pts
@@ -4571,16 +4429,6 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 156.21) (xy 279.4 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63e8da15-628c-4fb7-a5ab-a4adb96533c1")
-	)
-	(wire
-		(pts
 			(xy 318.77 176.53) (xy 318.77 156.21)
 		)
 		(stroke
@@ -4591,7 +4439,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 212.09) (xy 279.4 215.9)
+			(xy 279.4 210.82) (xy 279.4 215.9)
 		)
 		(stroke
 			(width 0)
@@ -4661,7 +4509,7 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 72.39) (xy 316.23 60.96)
+			(xy 316.23 60.96) (xy 316.23 73.66)
 		)
 		(stroke
 			(width 0)
@@ -4771,7 +4619,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 176.53) (xy 292.1 194.31)
+			(xy 292.1 175.26) (xy 292.1 194.31)
 		)
 		(stroke
 			(width 0)
@@ -4841,6 +4689,26 @@
 	)
 	(wire
 		(pts
+			(xy 342.9 99.06) (xy 342.9 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8392d724-c59f-4c32-85b3-6b8feab55a56")
+	)
+	(wire
+		(pts
+			(xy 279.4 156.21) (xy 279.4 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83d2523d-6b99-42f3-9595-127907a000b6")
+	)
+	(wire
+		(pts
 			(xy 285.75 24.13) (xy 285.75 29.21)
 		)
 		(stroke
@@ -4881,7 +4749,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 194.31) (xy 292.1 201.93)
+			(xy 292.1 194.31) (xy 292.1 203.2)
 		)
 		(stroke
 			(width 0)
@@ -4921,16 +4789,6 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 101.6) (xy 355.6 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98b8e52a-f041-4412-a1eb-c0154152e1ef")
-	)
-	(wire
-		(pts
 			(xy 285.75 156.21) (xy 292.1 156.21)
 		)
 		(stroke
@@ -4938,16 +4796,6 @@
 			(type default)
 		)
 		(uuid "9deb6cb7-f4a1-41f8-b4db-07fece2d06aa")
-	)
-	(wire
-		(pts
-			(xy 342.9 114.3) (xy 342.9 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a08a427f-dec4-4fa0-91fd-b7dfca9970bd")
 	)
 	(wire
 		(pts
@@ -5011,7 +4859,7 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 82.55) (xy 355.6 101.6)
+			(xy 355.6 81.28) (xy 355.6 101.6)
 		)
 		(stroke
 			(width 0)
@@ -5031,17 +4879,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 114.3) (xy 330.2 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aac71056-7c90-47c0-adf8-ed430c87cea5")
-	)
-	(wire
-		(pts
-			(xy 330.2 82.55) (xy 330.2 93.98)
+			(xy 330.2 81.28) (xy 330.2 93.98)
 		)
 		(stroke
 			(width 0)
@@ -5051,7 +4889,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 212.09) (xy 304.8 215.9)
+			(xy 304.8 210.82) (xy 304.8 215.9)
 		)
 		(stroke
 			(width 0)
@@ -5078,16 +4916,6 @@
 			(type default)
 		)
 		(uuid "ae72b1f4-45a9-44ac-9fdf-ebb23f696209")
-	)
-	(wire
-		(pts
-			(xy 265.43 186.69) (xy 265.43 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af2ba216-485b-45c9-98fd-2b95c7dcf0ba")
 	)
 	(wire
 		(pts
@@ -5121,7 +4949,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 156.21) (xy 265.43 166.37)
+			(xy 265.43 156.21) (xy 265.43 167.64)
 		)
 		(stroke
 			(width 0)
@@ -5138,6 +4966,16 @@
 			(type default)
 		)
 		(uuid "b6eb7bb7-6b9e-4387-9d11-1a4a2b60d601")
+	)
+	(wire
+		(pts
+			(xy 304.8 175.26) (xy 304.8 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7d1b3da-88c4-4270-8c2a-10718a17c1e6")
 	)
 	(wire
 		(pts
@@ -5171,7 +5009,17 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 82.55) (xy 342.9 99.06)
+			(xy 342.9 60.96) (xy 342.9 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba91ca8f-17bc-4290-ab36-07d619a48e40")
+	)
+	(wire
+		(pts
+			(xy 342.9 81.28) (xy 342.9 99.06)
 		)
 		(stroke
 			(width 0)
@@ -5191,7 +5039,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 93.98) (xy 330.2 104.14)
+			(xy 330.2 93.98) (xy 330.2 105.41)
 		)
 		(stroke
 			(width 0)
@@ -5261,7 +5109,7 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 72.39) (xy 355.6 60.96)
+			(xy 355.6 60.96) (xy 355.6 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5291,7 +5139,17 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 60.96) (xy 330.2 72.39)
+			(xy 355.6 113.03) (xy 355.6 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4969d8c-3d00-4c79-803e-1cd6c39c69b4")
+	)
+	(wire
+		(pts
+			(xy 330.2 60.96) (xy 330.2 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5331,6 +5189,16 @@
 	)
 	(wire
 		(pts
+			(xy 316.23 81.28) (xy 316.23 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd6ed4ae-4cde-481d-a3f2-9a52140a3429")
+	)
+	(wire
+		(pts
 			(xy 55.88 146.05) (xy 52.07 146.05)
 		)
 		(stroke
@@ -5338,6 +5206,16 @@
 			(type default)
 		)
 		(uuid "e1c21469-fe49-4670-b809-ad27147817d5")
+	)
+	(wire
+		(pts
+			(xy 265.43 186.69) (xy 265.43 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4048028-6eef-478b-a831-999df653aa2e")
 	)
 	(wire
 		(pts
@@ -5381,7 +5259,7 @@
 	)
 	(wire
 		(pts
-			(xy 316.23 91.44) (xy 316.23 104.14)
+			(xy 316.23 91.44) (xy 316.23 105.41)
 		)
 		(stroke
 			(width 0)
@@ -5421,16 +5299,6 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 60.96) (xy 342.9 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1e3ef1e-d837-40cf-aa5e-4e0223b77a62")
-	)
-	(wire
-		(pts
 			(xy 284.48 114.3) (xy 284.48 119.38)
 		)
 		(stroke
@@ -5441,13 +5309,13 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 99.06) (xy 342.9 104.14)
+			(xy 279.4 189.23) (xy 279.4 203.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f2e165ea-1f44-4dea-b11c-151a2cea31cc")
+		(uuid "f4832153-1caa-4612-ad4a-73052eeb80b2")
 	)
 	(wire
 		(pts
@@ -5481,23 +5349,13 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 156.21) (xy 304.8 166.37)
+			(xy 304.8 156.21) (xy 304.8 167.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fbb44d6d-fe0f-427e-9b92-b00b48c234c9")
-	)
-	(wire
-		(pts
-			(xy 304.8 176.53) (xy 304.8 196.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd39ae2e-615d-4027-9bd5-88046ce3a7f7")
 	)
 	(wire
 		(pts
@@ -16789,7 +16647,7 @@
 		(uuid "fe6479d6-50f6-46ab-934a-64ca3d9cef88")
 	)
 	(symbol
-		(lib_id "UF4004:UF4004")
+		(lib_id "Diode:UF5401")
 		(at 279.4 207.01 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16798,7 +16656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0410d65e-86f2-4511-9bf5-19cbb569c21b")
-		(property "Reference" "D13"
+		(property "Reference" "D5"
 			(at 281.94 205.4224 90)
 			(effects
 				(font
@@ -16807,7 +16665,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "UF4004"
+		(property "Value" "UF5401"
 			(at 281.94 207.9624 90)
 			(effects
 				(font
@@ -16816,7 +16674,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "UF4004:DIOAD1055W87L533D272"
+		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
 			(at 274.955 207.01 0)
 			(effects
 				(font
@@ -16963,16 +16821,16 @@
 				(hide yes)
 			)
 		)
-		(pin "A"
+		(pin "2"
 			(uuid "d9c40caa-3ccd-4e9a-b27d-1aade3718900")
 		)
-		(pin "C"
+		(pin "1"
 			(uuid "1e9073d5-2540-4749-bffa-6019f808494a")
 		)
 		(instances
 			(project "L298N driver"
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "D13")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -16988,7 +16846,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04eefdeb-63eb-45c6-995f-e226ef0e3ea2")
-		(property "Reference" "#FLG03"
+		(property "Reference" "#FLG02"
 			(at 271.78 22.225 0)
 			(effects
 				(font
@@ -17038,14 +16896,14 @@
 		(instances
 			(project "L298N driver"
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "#FLG03")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "UF4004:UF4004")
+		(lib_id "Diode:UF5401")
 		(at 316.23 109.22 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17054,7 +16912,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05b22be6-e911-4ced-9f39-bacd7de8521e")
-		(property "Reference" "D5"
+		(property "Reference" "D11"
 			(at 318.77 107.6324 90)
 			(effects
 				(font
@@ -17063,7 +16921,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "UF4004"
+		(property "Value" "UF5401"
 			(at 318.77 110.1724 90)
 			(effects
 				(font
@@ -17072,7 +16930,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "UF4004:DIOAD1055W87L533D272"
+		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
 			(at 311.785 109.22 0)
 			(effects
 				(font
@@ -17219,16 +17077,16 @@
 				(hide yes)
 			)
 		)
-		(pin "C"
+		(pin "2"
 			(uuid "9d9e49b6-5cd3-4aa3-950b-2ea13ac52265")
 		)
-		(pin "A"
+		(pin "1"
 			(uuid "7d461c5f-c88d-4575-8fca-484d73c6615a")
 		)
 		(instances
 			(project "L298N driver"
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "D5")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -17244,7 +17102,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0d169e6d-87e9-4d6d-bee0-7dd5560c25a8")
-		(property "Reference" "J2"
+		(property "Reference" "J7"
 			(at 386.08 91.4399 0)
 			(effects
 				(font
@@ -17298,14 +17156,14 @@
 		(instances
 			(project "L298N driver"
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "J2")
+					(reference "J7")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "UF4004:UF4004")
+		(lib_id "Diode:UF5401")
 		(at 292.1 171.45 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17314,7 +17172,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1557e6c7-5707-4eed-ab16-431eaa14593a")
-		(property "Reference" "D14"
+		(property "Reference" "D6"
 			(at 294.64 169.8624 90)
 			(effects
 				(font
@@ -17323,7 +17181,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "UF4004"
+		(property "Value" "UF5401"
 			(at 294.64 172.4024 90)
 			(effects
 				(font
@@ -17332,7 +17190,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "UF4004:DIOAD1055W87L533D272"
+		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
 			(at 287.655 171.45 0)
 			(effects
 				(font
@@ -17479,16 +17337,16 @@
 				(hide yes)
 			)
 		)
-		(pin "C"
+		(pin "2"
 			(uuid "61e685d4-3687-4435-af40-8013eac72939")
 		)
-		(pin "A"
+		(pin "1"
 			(uuid "1ed07bad-6078-49e1-bb0d-51709f2f9b36")
 		)
 		(instances
 			(project "L298N driver"
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "D14")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -17504,7 +17362,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "16b3b026-fa8e-4b22-b84a-534b1353030d")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR09"
 			(at 144.78 144.78 0)
 			(effects
 				(font
@@ -17555,7 +17413,7 @@
 		(instances
 			(project "L298N driver"
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "#PWR018")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -17632,7 +17490,7 @@
 		)
 	)
 	(symbol
-		(lib_id "UF4004:UF4004")
+		(lib_id "Diode:UF5401")
 		(at 279.4 171.45 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17641,7 +17499,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c18b936-9e26-4078-9ea9-a092d73f6409")
-		(property "Reference" "D12"
+		(property "Reference" "D4"
 			(at 281.94 169.8624 90)
 			(effects
 				(font
@@ -17650,7 +17508,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "UF4004"
+		(property "Value" "UF5401"
 			(at 281.94 172.4024 90)
 			(effects
 				(font
@@ -17659,7 +17517,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "UF4004:DIOAD1055W87L533D272"
+		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
 			(at 274.955 171.45 0)
 			(effects
 				(font
@@ -17806,16 +17664,16 @@
 				(hide yes)
 			)
 		)
-		(pin "C"
+		(pin "2"
 			(uuid "33cee28f-6279-48bf-878b-07c38ba9356b")
 		)
-		(pin "A"
+		(pin "1"
 			(uuid "246bf534-6830-4686-934b-de0cd452ef8b")
 		)
 		(instances
 			(project "L298N driver"
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "D12")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -17886,7 +17744,7 @@
 		)
 	)
 	(symbol
-		(lib_id "UF4004:UF4004")
+		(lib_id "Diode:UF5401")
 		(at 330.2 77.47 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17895,7 +17753,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25ad9049-a67d-4150-9e4a-3e3b0a9cb12c")
-		(property "Reference" "D2"
+		(property "Reference" "D12"
 			(at 332.74 75.8824 90)
 			(effects
 				(font
@@ -17904,7 +17762,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "UF4004"
+		(property "Value" "UF5401"
 			(at 332.74 78.4224 90)
 			(effects
 				(font
@@ -17913,7 +17771,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "UF4004:DIOAD1055W87L533D272"
+		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
 			(at 325.755 77.47 0)
 			(effects
 				(font
@@ -18060,16 +17918,16 @@
 				(hide yes)
 			)
 		)
-		(pin "C"
+		(pin "2"
 			(uuid "201b8df8-1202-4287-8b66-7c8097ac31dd")
 		)
-		(pin "A"
+		(pin "1"
 			(uuid "447c2668-f3f1-46f4-9a5f-d56c2acab842")
 		)
 		(instances
 			(project "L298N driver"
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "D2")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -18085,7 +17943,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "26fb510c-a8e9-4b25-b0f4-c69d6ba54998")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR03"
 			(at 41.91 245.11 0)
 			(effects
 				(font
@@ -18136,14 +17994,14 @@
 		(instances
 			(project "L298N driver"
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "#PWR07")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "UF4004:UF4004")
+		(lib_id "Diode:UF5401")
 		(at 265.43 171.45 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18152,7 +18010,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2755aefd-b368-456a-bfbf-b2f4f794f831")
-		(property "Reference" "D10"
+		(property "Reference" "D2"
 			(at 267.97 169.8624 90)
 			(effects
 				(font
@@ -18161,7 +18019,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "UF4004"
+		(property "Value" "UF5401"
 			(at 267.97 172.4024 90)
 			(effects
 				(font
@@ -18170,7 +18028,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "UF4004:DIOAD1055W87L533D272"
+		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
 			(at 260.985 171.45 0)
 			(effects
 				(font
@@ -18317,16 +18175,16 @@
 				(hide yes)
 			)
 		)
-		(pin "C"
+		(pin "2"
 			(uuid "22d9356d-f530-4613-a973-e091e26d906e")
 		)
-		(pin "A"
+		(pin "1"
 			(uuid "25c9f65a-04b1-4eaa-9c2a-fc7e0ee14981")
 		)
 		(instances
 			(project "L298N driver"
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "D10")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -18342,7 +18200,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2a0bd0fc-2c13-4ee9-be31-d1bc6cbc8d16")
-		(property "Reference" "J6"
+		(property "Reference" "J2"
 			(at 76.835 228.6 0)
 			(effects
 				(font
@@ -18394,7 +18252,7 @@
 		(instances
 			(project ""
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "J6")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -18474,7 +18332,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40a60121-077e-47b6-8052-f8fdf4ac9bcb")
-		(property "Reference" "D9"
+		(property "Reference" "D1"
 			(at 132.08 249.2374 90)
 			(effects
 				(font
@@ -18537,14 +18395,14 @@
 		(instances
 			(project ""
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "D9")
+					(reference "D1")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "UF4004:UF4004")
+		(lib_id "Diode:UF5401")
 		(at 355.6 77.47 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18553,7 +18411,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40f5d617-9431-4b52-9db3-f8a051a516db")
-		(property "Reference" "D4"
+		(property "Reference" "D16"
 			(at 358.14 75.8824 90)
 			(effects
 				(font
@@ -18562,7 +18420,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "UF4004"
+		(property "Value" "UF5401"
 			(at 358.14 78.4224 90)
 			(effects
 				(font
@@ -18571,7 +18429,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "UF4004:DIOAD1055W87L533D272"
+		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
 			(at 351.155 77.47 0)
 			(effects
 				(font
@@ -18718,23 +18576,23 @@
 				(hide yes)
 			)
 		)
-		(pin "C"
+		(pin "2"
 			(uuid "5d3c6587-fd1e-43f6-99b7-fc59240280bf")
 		)
-		(pin "A"
+		(pin "1"
 			(uuid "68f7dc2a-d20f-47d1-ad4e-37e8876ec8f4")
 		)
 		(instances
 			(project "L298N driver"
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "D4")
+					(reference "D16")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "UF4004:UF4004")
+		(lib_id "Diode:UF5401")
 		(at 355.6 109.22 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18743,7 +18601,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4349ef24-cdce-415b-9686-40a5cd7633c2")
-		(property "Reference" "D8"
+		(property "Reference" "D17"
 			(at 358.14 107.6324 90)
 			(effects
 				(font
@@ -18752,7 +18610,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "UF4004"
+		(property "Value" "UF5401"
 			(at 358.14 110.1724 90)
 			(effects
 				(font
@@ -18761,7 +18619,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "UF4004:DIOAD1055W87L533D272"
+		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
 			(at 351.155 109.22 0)
 			(effects
 				(font
@@ -18908,16 +18766,16 @@
 				(hide yes)
 			)
 		)
-		(pin "C"
+		(pin "2"
 			(uuid "617fdab5-3011-405e-aedd-6efabfe24b6e")
 		)
-		(pin "A"
+		(pin "1"
 			(uuid "b4471a62-8ef1-4498-91fa-6ee9bef218b7")
 		)
 		(instances
 			(project "L298N driver"
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "D8")
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -18933,7 +18791,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "436dd583-c32f-4488-bbdb-14ead613761a")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR017"
 			(at 257.81 33.02 0)
 			(effects
 				(font
@@ -18983,7 +18841,7 @@
 		(instances
 			(project "L298N driver"
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "#PWR08")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -18999,7 +18857,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "471c8795-ef75-4086-94fc-a2f7e444473e")
-		(property "Reference" "C3"
+		(property "Reference" "C2"
 			(at 322.58 178.1809 0)
 			(effects
 				(font
@@ -19053,7 +18911,7 @@
 		(instances
 			(project "L298N driver"
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "C3")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -19069,7 +18927,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4725fc76-cd89-471e-8a2b-8da71871ca2c")
-		(property "Reference" "J8"
+		(property "Reference" "J5"
 			(at 334.01 186.6899 0)
 			(effects
 				(font
@@ -19123,7 +18981,7 @@
 		(instances
 			(project "L298N driver"
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "J8")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -19139,7 +18997,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4f50183f-bb6f-4b7c-95ec-6c7afe99ec55")
-		(property "Reference" "J3"
+		(property "Reference" "J8"
 			(at 386.08 99.0599 0)
 			(effects
 				(font
@@ -19193,7 +19051,7 @@
 		(instances
 			(project "L298N driver"
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "J3")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -19209,7 +19067,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52dc538b-4320-48b8-ab49-79f4a63d9beb")
-		(property "Reference" "U1"
+		(property "Reference" "U5"
 			(at 289.1633 76.2 0)
 			(effects
 				(font
@@ -19303,7 +19161,7 @@
 		(instances
 			(project ""
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "U1")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -19319,7 +19177,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "55b988de-3003-4789-ab4b-068bdd82620a")
-		(property "Reference" "#FLG02"
+		(property "Reference" "#FLG03"
 			(at 285.75 22.225 0)
 			(effects
 				(font
@@ -19369,7 +19227,7 @@
 		(instances
 			(project "L298N driver"
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "#FLG02")
+					(reference "#FLG03")
 					(unit 1)
 				)
 			)
@@ -19385,7 +19243,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "568991c2-ebc5-458d-aa76-9a12065735b1")
-		(property "Reference" "J4"
+		(property "Reference" "J3"
 			(at 162.56 148.5899 0)
 			(effects
 				(font
@@ -19448,7 +19306,7 @@
 		(instances
 			(project ""
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "J4")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -19464,7 +19322,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5819dcc1-d818-4bb0-9360-79e54426d975")
-		(property "Reference" "C1"
+		(property "Reference" "C3"
 			(at 374.65 75.3109 0)
 			(effects
 				(font
@@ -19518,7 +19376,7 @@
 		(instances
 			(project ""
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "C1")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -19598,7 +19456,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "67781aa2-39ff-4b29-b70c-0656ac6ea40f")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR05"
 			(at 66.04 170.18 0)
 			(effects
 				(font
@@ -19648,7 +19506,7 @@
 		(instances
 			(project "L298N driver"
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "#PWR015")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -19664,7 +19522,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "68b31e89-8ba0-4466-aa4e-16aa43cadffa")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR011"
 			(at 144.78 162.56 0)
 			(effects
 				(font
@@ -19715,7 +19573,7 @@
 		(instances
 			(project "L298N driver"
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "#PWR020")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -19731,7 +19589,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6dcae1ac-135b-4aa0-b24b-72b521f201c2")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR01"
 			(at 41.91 240.03 0)
 			(effects
 				(font
@@ -19782,14 +19640,14 @@
 		(instances
 			(project "L298N driver"
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "#PWR022")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "UF4004:UF4004")
+		(lib_id "Diode:UF5401")
 		(at 304.8 207.01 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19798,7 +19656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "742e0522-520f-4779-97cf-3df1783cf489")
-		(property "Reference" "D17"
+		(property "Reference" "D9"
 			(at 307.34 205.4224 90)
 			(effects
 				(font
@@ -19807,7 +19665,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "UF4004"
+		(property "Value" "UF5401"
 			(at 307.34 207.9624 90)
 			(effects
 				(font
@@ -19816,7 +19674,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "UF4004:DIOAD1055W87L533D272"
+		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
 			(at 300.355 207.01 0)
 			(effects
 				(font
@@ -19963,16 +19821,16 @@
 				(hide yes)
 			)
 		)
-		(pin "C"
+		(pin "1"
 			(uuid "0dbf7449-1593-4955-8b6e-28f41664a613")
 		)
-		(pin "A"
+		(pin "2"
 			(uuid "4f57e737-166b-4345-a8c7-b81987c71644")
 		)
 		(instances
 			(project "L298N driver"
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "D17")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -19988,7 +19846,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7968a41d-650d-4664-9a61-ddc9d81a5bd5")
-		(property "Reference" "J9"
+		(property "Reference" "J6"
 			(at 334.01 194.3099 0)
 			(effects
 				(font
@@ -20042,14 +19900,14 @@
 		(instances
 			(project "L298N driver"
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "J9")
+					(reference "J6")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "UF4004:UF4004")
+		(lib_id "Diode:UF5401")
 		(at 316.23 77.47 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20058,7 +19916,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83a8baf9-5dc4-4884-967c-5de767762d34")
-		(property "Reference" "D1"
+		(property "Reference" "D10"
 			(at 318.77 75.8824 90)
 			(effects
 				(font
@@ -20067,7 +19925,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "UF4004"
+		(property "Value" "UF5401"
 			(at 318.77 78.4224 90)
 			(effects
 				(font
@@ -20076,7 +19934,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "UF4004:DIOAD1055W87L533D272"
+		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
 			(at 311.785 77.47 0)
 			(effects
 				(font
@@ -20223,16 +20081,16 @@
 				(hide yes)
 			)
 		)
-		(pin "A"
+		(pin "2"
 			(uuid "092302af-f078-4c92-8bae-16eef9fbee17")
 		)
-		(pin "C"
+		(pin "1"
 			(uuid "45caef19-8b29-40e4-939d-3063a41fa7a3")
 		)
 		(instances
 			(project ""
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "D1")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -20248,7 +20106,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8830e20a-4e60-47d6-972f-91f7cb629d30")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR08"
 			(at 128.27 232.41 0)
 			(effects
 				(font
@@ -20298,7 +20156,7 @@
 		(instances
 			(project "L298N driver"
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "#PWR06")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -20314,7 +20172,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "887e3987-122d-4422-add0-a076e3af50ef")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR06"
 			(at 92.71 252.73 0)
 			(effects
 				(font
@@ -20364,14 +20222,14 @@
 		(instances
 			(project "L298N driver"
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "#PWR024")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "UF4004:UF4004")
+		(lib_id "Diode:UF5401")
 		(at 330.2 109.22 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20380,7 +20238,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8b4d9cc0-06a9-45bd-a0bc-ac7fa6b37e85")
-		(property "Reference" "D6"
+		(property "Reference" "D13"
 			(at 332.74 107.6324 90)
 			(effects
 				(font
@@ -20389,7 +20247,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "UF4004"
+		(property "Value" "UF5401"
 			(at 332.74 110.1724 90)
 			(effects
 				(font
@@ -20398,7 +20256,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "UF4004:DIOAD1055W87L533D272"
+		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
 			(at 325.755 109.22 0)
 			(effects
 				(font
@@ -20545,16 +20403,16 @@
 				(hide yes)
 			)
 		)
-		(pin "C"
+		(pin "1"
 			(uuid "afa0654e-c064-43ee-a97c-8ca406840497")
 		)
-		(pin "A"
+		(pin "2"
 			(uuid "55d4c540-0891-468b-b95b-ae2c114edeb9")
 		)
 		(instances
 			(project "L298N driver"
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "D6")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -20570,7 +20428,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e66c217-f513-4d1e-bb40-be9d4f3124bf")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR014"
 			(at 157.48 124.46 0)
 			(effects
 				(font
@@ -20620,7 +20478,7 @@
 		(instances
 			(project "L298N driver"
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "#PWR016")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -20636,7 +20494,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91c326bb-a15c-4552-9a3c-9590baf79d50")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR022"
 			(at 285.75 152.4 0)
 			(effects
 				(font
@@ -20686,14 +20544,14 @@
 		(instances
 			(project "L298N driver"
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "#PWR013")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "UF4004:UF4004")
+		(lib_id "Diode:UF5401")
 		(at 342.9 77.47 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20702,7 +20560,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96cec08e-beeb-4935-a267-031c86085526")
-		(property "Reference" "D3"
+		(property "Reference" "D14"
 			(at 345.44 75.8824 90)
 			(effects
 				(font
@@ -20711,7 +20569,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "UF4004"
+		(property "Value" "UF5401"
 			(at 345.44 78.4224 90)
 			(effects
 				(font
@@ -20720,7 +20578,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "UF4004:DIOAD1055W87L533D272"
+		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
 			(at 338.455 77.47 0)
 			(effects
 				(font
@@ -20867,23 +20725,23 @@
 				(hide yes)
 			)
 		)
-		(pin "A"
+		(pin "1"
 			(uuid "676b2af2-f98f-40a5-bf80-93c1bc3d514e")
 		)
-		(pin "C"
+		(pin "2"
 			(uuid "15bcb4c8-a70f-4441-9825-a96d0c923f38")
 		)
 		(instances
 			(project "L298N driver"
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "D3")
+					(reference "D14")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "UF4004:UF4004")
+		(lib_id "Diode:UF5401")
 		(at 304.8 171.45 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20892,7 +20750,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b4db86a-0c41-40e9-837d-263a40723716")
-		(property "Reference" "D16"
+		(property "Reference" "D8"
 			(at 307.34 169.8624 90)
 			(effects
 				(font
@@ -20901,7 +20759,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "UF4004"
+		(property "Value" "UF5401"
 			(at 307.34 172.4024 90)
 			(effects
 				(font
@@ -20910,7 +20768,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "UF4004:DIOAD1055W87L533D272"
+		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
 			(at 300.355 171.45 0)
 			(effects
 				(font
@@ -21057,16 +20915,16 @@
 				(hide yes)
 			)
 		)
-		(pin "A"
+		(pin "2"
 			(uuid "74678feb-8ddd-483e-b76a-70366a605aff")
 		)
-		(pin "C"
+		(pin "1"
 			(uuid "2fbbf1be-bffa-4ece-9986-5c1366a95e67")
 		)
 		(instances
 			(project "L298N driver"
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "D16")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -21098,7 +20956,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
 			(at 101.6 227.965 0)
 			(effects
 				(font
@@ -21154,7 +21012,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a98bacf9-2ecc-47bc-a3a9-e4af3dc7e3d7")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR024"
 			(at 337.82 57.15 0)
 			(effects
 				(font
@@ -21204,7 +21062,7 @@
 		(instances
 			(project ""
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "#PWR02")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -21220,7 +21078,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b806abd0-5b8f-47e3-85ce-9447da76d92b")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR015"
 			(at 227.33 220.98 0)
 			(effects
 				(font
@@ -21270,7 +21128,7 @@
 		(instances
 			(project "L298N driver"
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "#PWR010")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -21286,7 +21144,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b86255e6-6d68-472a-9b86-202eb909a737")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR07"
 			(at 109.22 262.89 0)
 			(effects
 				(font
@@ -21336,7 +21194,7 @@
 		(instances
 			(project "L298N driver"
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "#PWR03")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -21416,7 +21274,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bdf9f78f-bcde-4d87-83a9-89a8e9f90d62")
 		(property "Reference" "J1"
 			(at 36.83 233.68 0)
@@ -21434,13 +21291,12 @@
 				)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_1x02_P5.00mm_Horizontal"
-			(at 36.83 242.57 0)
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
+			(at 37.592 253.746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "~"
@@ -21489,7 +21345,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9fbd105-14d6-424e-8113-3187288a7e97")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR018"
 			(at 271.78 22.86 0)
 			(effects
 				(font
@@ -21539,7 +21395,7 @@
 		(instances
 			(project "L298N driver"
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "#PWR09")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -21555,7 +21411,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc208e3d-efb9-48ff-beea-746cad3d2c81")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR020"
 			(at 284.48 66.04 0)
 			(effects
 				(font
@@ -21605,7 +21461,7 @@
 		(instances
 			(project ""
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "#PWR01")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -21621,7 +21477,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdbd93d3-4582-45d7-af99-101517be04e4")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR016"
 			(at 232.41 161.29 0)
 			(effects
 				(font
@@ -21671,7 +21527,7 @@
 		(instances
 			(project "L298N driver"
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "#PWR011")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -21687,7 +21543,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdcc1f7c-1b48-49b6-9393-5472d02c308e")
-		(property "Reference" "U4"
+		(property "Reference" "U1"
 			(at 68.1833 123.19 0)
 			(effects
 				(font
@@ -21783,7 +21639,7 @@
 		(instances
 			(project ""
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "U4")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -21799,7 +21655,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d2b3aaf7-7ba8-4269-be45-2a423c1d819b")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR012"
 			(at 154.94 165.1 0)
 			(effects
 				(font
@@ -21850,7 +21706,7 @@
 		(instances
 			(project "L298N driver"
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "#PWR021")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -21866,7 +21722,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d539c383-c64b-4c46-afb7-d8a57dd85b3f")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR02"
 			(at 52.07 242.57 0)
 			(effects
 				(font
@@ -21917,7 +21773,7 @@
 		(instances
 			(project "L298N driver"
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "#PWR023")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -21933,7 +21789,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d88184db-b750-426d-8f64-b2cc49404524")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR023"
 			(at 336.55 132.08 0)
 			(effects
 				(font
@@ -21983,7 +21839,7 @@
 		(instances
 			(project "L298N driver"
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "#PWR05")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -21999,7 +21855,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dac37aee-77ae-4017-bd86-141cd6058141")
-		(property "Reference" "C2"
+		(property "Reference" "C1"
 			(at 118.11 241.6809 0)
 			(effects
 				(font
@@ -22053,7 +21909,7 @@
 		(instances
 			(project "L298N driver"
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "C2")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -22069,7 +21925,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc072292-f2c0-45bb-9b42-53a6644ebe1f")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR013"
 			(at 156.21 57.15 0)
 			(effects
 				(font
@@ -22119,7 +21975,7 @@
 		(instances
 			(project "L298N driver"
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "#PWR017")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -22401,7 +22257,7 @@
 		)
 	)
 	(symbol
-		(lib_id "UF4004:UF4004")
+		(lib_id "Diode:UF5401")
 		(at 292.1 207.01 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22410,7 +22266,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df988c40-9da4-48a6-8ba6-7e61703cd43b")
-		(property "Reference" "D15"
+		(property "Reference" "D7"
 			(at 294.64 205.4224 90)
 			(effects
 				(font
@@ -22419,7 +22275,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "UF4004"
+		(property "Value" "UF5401"
 			(at 294.64 207.9624 90)
 			(effects
 				(font
@@ -22428,7 +22284,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "UF4004:DIOAD1055W87L533D272"
+		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
 			(at 287.655 207.01 0)
 			(effects
 				(font
@@ -22575,16 +22431,16 @@
 				(hide yes)
 			)
 		)
-		(pin "A"
+		(pin "2"
 			(uuid "ccb32be2-47c8-434b-9e52-855febd94110")
 		)
-		(pin "C"
+		(pin "1"
 			(uuid "5b2713ed-e68c-4eaf-9480-0b2d988fa467")
 		)
 		(instances
 			(project "L298N driver"
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "D15")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -22600,7 +22456,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3940db3-6b2d-4889-9aed-01f8ce36333b")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR021"
 			(at 284.48 227.33 0)
 			(effects
 				(font
@@ -22650,7 +22506,7 @@
 		(instances
 			(project "L298N driver"
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "#PWR012")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -22666,7 +22522,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9c5e715-ffe0-4865-be4f-590241b668ab")
-		(property "Reference" "J5"
+		(property "Reference" "J4"
 			(at 162.56 166.3699 0)
 			(effects
 				(font
@@ -22729,7 +22585,7 @@
 		(instances
 			(project "L298N driver"
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "J5")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -22745,7 +22601,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "edca31e2-9bf0-4a8b-bc8d-a68e790e010a")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR019"
 			(at 279.4 125.73 0)
 			(effects
 				(font
@@ -22795,14 +22651,14 @@
 		(instances
 			(project ""
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "#PWR04")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "UF4004:UF4004")
+		(lib_id "Diode:UF5401")
 		(at 342.9 109.22 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22811,7 +22667,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eeaa64b3-2fc7-49c0-b120-4dfdcb4f4205")
-		(property "Reference" "D7"
+		(property "Reference" "D15"
 			(at 345.44 107.6324 90)
 			(effects
 				(font
@@ -22820,7 +22676,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "UF4004"
+		(property "Value" "UF5401"
 			(at 345.44 110.1724 90)
 			(effects
 				(font
@@ -22829,7 +22685,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "UF4004:DIOAD1055W87L533D272"
+		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
 			(at 338.455 109.22 0)
 			(effects
 				(font
@@ -22976,16 +22832,16 @@
 				(hide yes)
 			)
 		)
-		(pin "C"
+		(pin "1"
 			(uuid "c7afc79c-8e4b-489b-a751-0be45ae5645c")
 		)
-		(pin "A"
+		(pin "2"
 			(uuid "f33affd2-99fb-4ceb-b347-2b79ed7083f3")
 		)
 		(instances
 			(project "L298N driver"
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "D7")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -23065,7 +22921,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef3e8653-a5f8-4566-88bd-1fa54a956d7d")
-		(property "Reference" "U5"
+		(property "Reference" "U4"
 			(at 237.0933 171.45 0)
 			(effects
 				(font
@@ -23159,7 +23015,7 @@
 		(instances
 			(project "L298N driver"
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "U5")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -23175,7 +23031,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f355e761-64ea-4604-8b1b-7cf5898a92fb")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR010"
 			(at 154.94 147.32 0)
 			(effects
 				(font
@@ -23226,14 +23082,14 @@
 		(instances
 			(project "L298N driver"
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "#PWR019")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "UF4004:UF4004")
+		(lib_id "Diode:UF5401")
 		(at 265.43 207.01 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23242,7 +23098,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f67654ba-d2a4-4ec8-b402-b6f1e1a03e43")
-		(property "Reference" "D11"
+		(property "Reference" "D3"
 			(at 267.97 205.4224 90)
 			(effects
 				(font
@@ -23251,7 +23107,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "UF4004"
+		(property "Value" "UF5401"
 			(at 267.97 207.9624 90)
 			(effects
 				(font
@@ -23260,7 +23116,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "UF4004:DIOAD1055W87L533D272"
+		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
 			(at 260.985 207.01 0)
 			(effects
 				(font
@@ -23407,16 +23263,16 @@
 				(hide yes)
 			)
 		)
-		(pin "A"
+		(pin "1"
 			(uuid "8fbe7e49-1ac4-475b-8802-d60dc3cf1001")
 		)
-		(pin "C"
+		(pin "2"
 			(uuid "4d8c9116-2bcc-4490-a324-da820ef6bbd6")
 		)
 		(instances
 			(project "L298N driver"
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "D11")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -23432,7 +23288,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f720c5c2-b56b-4bd1-89c3-f4bc194ec64f")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR04"
 			(at 66.04 123.19 0)
 			(effects
 				(font
@@ -23482,7 +23338,7 @@
 		(instances
 			(project "L298N driver"
 				(path "/993c54f7-7d7e-4f58-b9ee-d32c8655556a"
-					(reference "#PWR014")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
