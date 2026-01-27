@@ -2262,11 +2262,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:UF5401"
+		(symbol "Diode:SS34"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
+				(offset 1.016)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -2280,7 +2281,7 @@
 					)
 				)
 			)
-			(property "Value" "UF5401"
+			(property "Value" "SS34"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -2288,7 +2289,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+			(property "Footprint" "Diode_SMD:D_SMA"
 				(at 0 -4.445 0)
 				(effects
 					(font
@@ -2297,7 +2298,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.vishay.com/docs/88756/uf5400.pdf"
+			(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2306,7 +2307,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "100V 3A Soft Recovery Ultrafast Rectifier Diode, DO-201AD"
+			(property "Description" "40V 3A Schottky Diode, SMA"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2315,7 +2316,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Device" "D"
+			(property "ki_keywords" "diode Schottky"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2324,7 +2325,7 @@
 					(hide yes)
 				)
 			)
-			(property "Sim.Pins" "1=K 2=A"
+			(property "ki_fp_filters" "D*SMA*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2333,28 +2334,10 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?201AD*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "UF5401_0_1"
+			(symbol "SS34_0_1"
 				(polyline
 					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
 					)
 					(stroke
 						(width 0.254)
@@ -2389,7 +2372,7 @@
 					)
 				)
 			)
-			(symbol "UF5401_1_1"
+			(symbol "SS34_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -16647,7 +16630,7 @@
 		(uuid "fe6479d6-50f6-46ab-934a-64ca3d9cef88")
 	)
 	(symbol
-		(lib_id "Diode:UF5401")
+		(lib_id "Diode:SS34")
 		(at 279.4 207.01 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16665,7 +16648,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "UF5401"
+		(property "Value" "SS34"
 			(at 281.94 207.9624 90)
 			(effects
 				(font
@@ -16674,7 +16657,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 274.955 207.01 0)
 			(effects
 				(font
@@ -16903,7 +16886,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:UF5401")
+		(lib_id "Diode:SS34")
 		(at 316.23 109.22 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16921,7 +16904,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "UF5401"
+		(property "Value" "SS34"
 			(at 318.77 110.1724 90)
 			(effects
 				(font
@@ -16930,7 +16913,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 311.785 109.22 0)
 			(effects
 				(font
@@ -17163,7 +17146,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:UF5401")
+		(lib_id "Diode:SS34")
 		(at 292.1 171.45 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17181,7 +17164,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "UF5401"
+		(property "Value" "SS34"
 			(at 294.64 172.4024 90)
 			(effects
 				(font
@@ -17190,7 +17173,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 287.655 171.45 0)
 			(effects
 				(font
@@ -17490,7 +17473,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:UF5401")
+		(lib_id "Diode:SS34")
 		(at 279.4 171.45 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17508,7 +17491,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "UF5401"
+		(property "Value" "SS34"
 			(at 281.94 172.4024 90)
 			(effects
 				(font
@@ -17517,7 +17500,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 274.955 171.45 0)
 			(effects
 				(font
@@ -17744,7 +17727,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:UF5401")
+		(lib_id "Diode:SS34")
 		(at 330.2 77.47 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17762,7 +17745,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "UF5401"
+		(property "Value" "SS34"
 			(at 332.74 78.4224 90)
 			(effects
 				(font
@@ -17771,7 +17754,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 325.755 77.47 0)
 			(effects
 				(font
@@ -18001,7 +17984,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:UF5401")
+		(lib_id "Diode:SS34")
 		(at 265.43 171.45 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18019,7 +18002,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "UF5401"
+		(property "Value" "SS34"
 			(at 267.97 172.4024 90)
 			(effects
 				(font
@@ -18028,7 +18011,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 260.985 171.45 0)
 			(effects
 				(font
@@ -18402,7 +18385,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:UF5401")
+		(lib_id "Diode:SS34")
 		(at 355.6 77.47 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18420,7 +18403,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "UF5401"
+		(property "Value" "SS34"
 			(at 358.14 78.4224 90)
 			(effects
 				(font
@@ -18429,7 +18412,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 351.155 77.47 0)
 			(effects
 				(font
@@ -18592,7 +18575,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:UF5401")
+		(lib_id "Diode:SS34")
 		(at 355.6 109.22 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18610,7 +18593,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "UF5401"
+		(property "Value" "SS34"
 			(at 358.14 110.1724 90)
 			(effects
 				(font
@@ -18619,7 +18602,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 351.155 109.22 0)
 			(effects
 				(font
@@ -19647,7 +19630,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:UF5401")
+		(lib_id "Diode:SS34")
 		(at 304.8 207.01 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19665,7 +19648,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "UF5401"
+		(property "Value" "SS34"
 			(at 307.34 207.9624 90)
 			(effects
 				(font
@@ -19674,7 +19657,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 300.355 207.01 0)
 			(effects
 				(font
@@ -19907,7 +19890,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:UF5401")
+		(lib_id "Diode:SS34")
 		(at 316.23 77.47 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19925,7 +19908,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "UF5401"
+		(property "Value" "SS34"
 			(at 318.77 78.4224 90)
 			(effects
 				(font
@@ -19934,7 +19917,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 311.785 77.47 0)
 			(effects
 				(font
@@ -20229,7 +20212,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:UF5401")
+		(lib_id "Diode:SS34")
 		(at 330.2 109.22 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20247,7 +20230,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "UF5401"
+		(property "Value" "SS34"
 			(at 332.74 110.1724 90)
 			(effects
 				(font
@@ -20256,7 +20239,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 325.755 109.22 0)
 			(effects
 				(font
@@ -20551,7 +20534,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:UF5401")
+		(lib_id "Diode:SS34")
 		(at 342.9 77.47 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20569,7 +20552,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "UF5401"
+		(property "Value" "SS34"
 			(at 345.44 78.4224 90)
 			(effects
 				(font
@@ -20578,7 +20561,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 338.455 77.47 0)
 			(effects
 				(font
@@ -20741,7 +20724,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:UF5401")
+		(lib_id "Diode:SS34")
 		(at 304.8 171.45 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20759,7 +20742,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "UF5401"
+		(property "Value" "SS34"
 			(at 307.34 172.4024 90)
 			(effects
 				(font
@@ -20768,7 +20751,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 300.355 171.45 0)
 			(effects
 				(font
@@ -22257,7 +22240,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:UF5401")
+		(lib_id "Diode:SS34")
 		(at 292.1 207.01 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22275,7 +22258,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "UF5401"
+		(property "Value" "SS34"
 			(at 294.64 207.9624 90)
 			(effects
 				(font
@@ -22284,7 +22267,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 287.655 207.01 0)
 			(effects
 				(font
@@ -22658,7 +22641,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:UF5401")
+		(lib_id "Diode:SS34")
 		(at 342.9 109.22 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22676,7 +22659,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "UF5401"
+		(property "Value" "SS34"
 			(at 345.44 110.1724 90)
 			(effects
 				(font
@@ -22685,7 +22668,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 338.455 109.22 0)
 			(effects
 				(font
@@ -23089,7 +23072,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:UF5401")
+		(lib_id "Diode:SS34")
 		(at 265.43 207.01 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23107,7 +23090,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "UF5401"
+		(property "Value" "SS34"
 			(at 267.97 207.9624 90)
 			(effects
 				(font
@@ -23116,7 +23099,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_THT:D_DO-201AD_P15.24mm_Horizontal"
+		(property "Footprint" "Diode_SMD:D_SMA"
 			(at 260.985 207.01 0)
 			(effects
 				(font
