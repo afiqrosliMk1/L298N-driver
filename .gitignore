@@ -26,6 +26,8 @@ _autosave-*
 *-rescue.*
 
 # Manufacturing outputs
+gerbers/*
+!gerbers/.gitkeep
 *.gbr
 *.drl
 *.pos
