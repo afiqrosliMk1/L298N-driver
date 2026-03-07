@@ -3649,6 +3649,10 @@
 		(uuid "f5af2d9c-285d-471d-8af4-34bbddadb4f4")
 	)
 	(no_connect
+		(at 76.2 153.67)
+		(uuid "0956fe93-69f9-43fd-8d37-94f76edd9ee1")
+	)
+	(no_connect
 		(at 154.94 87.63)
 		(uuid "0f9dc506-f2e5-4e98-8fed-1191c0bc7b50")
 	)
@@ -3695,10 +3699,6 @@
 	(no_connect
 		(at 154.94 95.25)
 		(uuid "917888f0-7ffd-4631-8138-784f9cfddd97")
-	)
-	(no_connect
-		(at 76.2 153.67)
-		(uuid "a0fa82b2-6333-4139-928f-89be19ca7e75")
 	)
 	(no_connect
 		(at 154.94 69.85)
@@ -21544,7 +21544,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-18_W7.62mm_Socket"
+		(property "Footprint" "Package_DIP:DIP-16_W7.62mm_Socket"
 			(at 66.04 140.97 0)
 			(effects
 				(font
